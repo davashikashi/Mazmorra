@@ -2,5 +2,7 @@
 Build/
 Library/
 Logs/
-UserSettings
+UserSettings/
 Mazmorras.sln
+Temp/
+Assembly-CSharp
