@@ -1,5 +1,7 @@
 .vscode/
 Build/
+.vs/
+.git/
 Library/
 Logs/
 UserSettings/
