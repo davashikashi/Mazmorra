@@ -14,6 +14,10 @@ public class ButtonController : MonoBehaviour
         Running.SetActive(true);
         Inicio.SetActive(false);  
     }
+    public void RestartStartGame()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
 
     public void CloseGame()
     {
